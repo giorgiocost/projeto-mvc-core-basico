@@ -21,7 +21,7 @@ namespace projeto_mvc_core_basico.Models
         public string Imagem { get; set; }
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
-        public decimal DataCadastro { get; set; }
+        public DateTime DataCadastro { get; set; }
         public bool Ativo { get; set; }
 
         /* EF relacionamento N para 1*/
